@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +39,148 @@
   to {
     transform: rotate(360deg);
   }
+}
+.Head {
+  display: grid;
+  color: white;
+  background-color: rgb(41, 188, 27);
+  text-align: left;
+  grid-template-columns: auto auto;
+  padding: 5px;
+}
+.Left {
+  padding-left: 40px;
+}
+.Clk {
+  text-align: right;
+}
+.Container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.Box {
+  margin: 0.7em;
+  background-color: rgb(81, 219, 219);
+  font-size: 2vh;
+  width: 95%;
+  border-radius: 5px;
+}
+.Name {
+  font-size: 2.7vh;
+}
+.Num {
+  padding: 0vh 4vw 0vh 4vw;
+  background-color: antiquewhite;
+  font-size: 3vw;
+  color: rgb(41, 188, 27);
+}
+
+.Tank {
+  display: grid;
+  border-radius: 5px;
+  gap: 12px;
+  grid-template-columns: auto auto auto;
+}
+.Mug1 {
+  border-radius: 5px;
+  background-color: rgb(81, 219, 219);
+  grid-row: 1/3;
+}
+.Mug2 {
+  border-radius: 5px;
+  background-color: rgb(81, 219, 219);
+  grid-column: 2/4;
+}
+.Mug3 {
+  border-radius: 5px;
+  background-color: rgb(81, 219, 219);
+  grid-column: 2/4;
+}
+.List {
+  display: grid;
+  font-size: 15px;
+  margin-top: 4vh;
+  grid-template-columns: auto auto;
+}
+.clm1 {
+  border-right: 2px solid red;
+  text-align: right;
+}
+.clm2 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+  font-size: 12px;
+  text-align: right;
+}
+.n1 {
+  background-color: rgb(41, 188, 27);
+  height: 2.5vh;
+  width: 117px;
+  grid-column: 1/11;
+}
+.n2 {
+  background-color: rgb(41, 188, 27);
+  height: 2.5vh;
+  width: 65px;
+  grid-column: 1/11;
+}
+.n3 {
+  background-color: rgb(41, 188, 27);
+  height: 2.5vh;
+  width: 59px;
+  grid-column: 1/11;
+}
+.n4 {
+  background-color: rgb(41, 188, 27);
+  height: 2.5vh;
+  width: 56px;
+  grid-column: 1/11;
+}
+.n5 {
+  background-color: rgb(41, 188, 27);
+  height: 2.5vh;
+  width: 54px;
+  grid-column: 1/11;
+}
+.n6 {
+  background-color: rgb(41, 188, 27);
+  height: 2.5vh;
+  width: 51px;
+  grid-column: 1/11;
+}
+.n7 {
+  background-color: rgb(41, 188, 27);
+  height: 2.5vh;
+  width: 40px;
+  grid-column: 1/11;
+}
+.n8 {
+  background-color: rgb(41, 188, 27);
+  height: 2.5vh;
+  width: 32px;
+  grid-column: 1/11;
+}
+.n9 {
+  background-color: rgb(41, 188, 27);
+  height: 2.5vh;
+  width: 29px;
+  grid-column: 1/11;
+}
+.n10 {
+  background-color: rgb(41, 188, 27);
+  height: 2.5vh;
+  width: 23px;
+  grid-column: 1/11;
+}
+.First {
+  color: blueviolet;
+  background-color: antiquewhite;
+  margin-top: 2vh;
+  font-size: 20px;
+}
+.Full {
+  color: rgb(41, 188, 27);
+  background-color: antiquewhite;
+  margin-top: 2vh;
+  font-size: 20px;
 }
